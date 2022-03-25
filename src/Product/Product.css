@@ -31,13 +31,13 @@
     align-items: center;
     position: absolute;
     bottom: 0;
-    background-color: rgba(220, 20, 60, 0.815);
+    background-color: #008000c0;
     color: white;
     border: none;
 }
 
 .product button:hover{
-    background-color: crimson;
+    background-color: #008000;
 }
 
 .product .icon{
