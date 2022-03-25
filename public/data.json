@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Orchids",
+        "price": 288,
+        "img": "https://www.thespruce.com/thmb/LEadQ72VFG3h140RAxK7fouWMH4=/941x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/orchid-identification-1315976-hero-1b62f0a648c24f798a354bc04d3bca5e.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Geranium",
+        "price": 1710,
+        "img": "https://www.thespruce.com/thmb/MFldf-UMJZD5iDma2LmcI6UhWec=/2121x1193/smart/filters:no_upscale()/growing-and-caring-for-annual-geranium-plants-1402908-6-2-974a48e971004fbdb9212f89db8cab7a.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Poinsettia",
+        "price": 1770,
+        "img": "https://www.gardeningknowhow.com/wp-content/uploads/2009/01/iStock-531579027.jpg"
+    },
+    {
+        "id": 4,
+        "name": "African Violet",
+        "price": 1594,
+        "img": "https://static.onecms.io/wp-content/uploads/sites/24/2019/04/gettyimages-492004922-2000.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Peace Lily",
+        "price": 839,
+        "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/peace-lilies-royalty-free-image-1644536388.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Lipstick Plant",
+        "price": 517,
+        "img": "https://www.gardeningknowhow.com/wp-content/uploads/2013/04/lipstick-plant.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Jasmine",
+        "price": 763,
+        "img": "https://www.gardeningknowhow.com/wp-content/uploads/2020/11/jasmine-plants.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Impatiens",
+        "price": 987,
+        "img": "https://static.onecms.io/wp-content/uploads/sites/37/2020/06/22/impatiens-xtreme-rose-35024df3.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Cape Primrose",
+        "price": 2230,
+        "img": "https://hartley-botanic.co.uk/wp-content/uploads/2016/06/pink-cape-primrose-.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Christmas Cactus",
+        "price": 2230,
+        "img": "https://u9b2w4s6.rocketcdn.me/wp-content/uploads/2021/11/christmas-cactus-plant-care-01.jpg"
+    }
+]

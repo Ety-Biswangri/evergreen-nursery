@@ -1,0 +1,22 @@
+.product{
+    height: 450px;
+    background-color: lavender;
+    text-align: center;
+}
+
+.product img{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 90%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.product-info 
+{
+    margin-bottom: 40px;
+}
+
+.product-info h3{
+    margin: 5px;
+}

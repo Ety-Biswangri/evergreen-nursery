@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: lightblue;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.navbar h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.navbar span{
+    color: green;
+}
+
+@media screen and (max-width: 450px) {
+    .navbar h1{
+        font-size: 25px;
+    }
+}
