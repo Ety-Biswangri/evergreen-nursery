@@ -1,5 +1,6 @@
 import React from 'react';
 import './Product.css';
+import { FaShoppingCart } from 'react-icons/fa';
 
 const Product = ({ product }) => {
     // console.log(product.img)
@@ -12,8 +13,8 @@ const Product = ({ product }) => {
                 <h3>Price: ${price}</h3>
             </div>
             <button>
-                Add to Cart
-
+                <p>Add to Cart</p>
+                <FaShoppingCart className='icon'></FaShoppingCart>
             </button>
         </div>
     );

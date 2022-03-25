@@ -5,13 +5,11 @@
 }
 
 .navbar{
-    background-color: lightblue;
+    background-color: rgb(230, 242, 246);
     height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: sticky;
-    top: 0;
 }
 
 .navbar h1{
