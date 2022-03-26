@@ -12,8 +12,16 @@ const Shop = ({ products }) => {
     }
 
     const chooseOne = () => {
+        console.log(carts)
+        if (carts.length === 0) {
+            alert('Please choose any four items');
+            return;
+        }
         const item = carts[Math.floor(Math.random() * carts.length)];
         const chosenItem = [item];
+        if (chosenItem === [undefined]) {
+            return;
+        }
         setCarts(chosenItem);
     }
 
@@ -30,15 +38,7 @@ const Shop = ({ products }) => {
                 }
             </div>
             <div className='carts-container'>
-                <h2 style={{ fontWeight: "bolder", textAlign: "center", marginBottom: "40px", }}>Orders List</h2>
-                <div className='carts'>
-                    <Cart carts={carts}></Cart>
-                </div>
-                <div className='buttons'>
-                    <button onClick={chooseOne}>Choose 1 for Me</button>
-                    <br />
-                    <button onClick={chooseAgain}>Choose Again</button>
-                </div>
+                <Cart chooseOne={chooseOne} chooseAgain={chooseAgain} carts={carts}></Cart>
             </div>
         </div>
     );
