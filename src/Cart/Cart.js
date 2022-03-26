@@ -1,9 +1,9 @@
 import React from 'react';
+import './Cart.css';
 
 const Cart = ({ carts }) => {
     return (
-        <div>
-            <h3>Carts Container</h3>
+        <div className='cart'>
             {
                 carts.map(cart => (
                     <li key={cart.name}>{cart.name}</li>

@@ -30,7 +30,10 @@ const Shop = ({ products }) => {
                 }
             </div>
             <div className='carts-container'>
-                <Cart carts={carts}></Cart>
+                <h2 style={{ fontWeight: "bolder", textAlign: "center", marginBottom: "40px", }}>Orders List</h2>
+                <div className='carts'>
+                    <Cart carts={carts}></Cart>
+                </div>
                 <button onClick={chooseOne}>Choose 1 for Me</button>
                 <br />
                 <button onClick={chooseAgain}>Choose Again</button>

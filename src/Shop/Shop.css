@@ -1,7 +1,6 @@
 .shop{
     display: grid;
     grid-template-columns: 4fr 1fr;
-    margin: 20px;
 }
 
 .products-container{
@@ -11,6 +10,29 @@
     grid-gap: 30px;
 }
 
+.carts-container{
+    background-color: #70da7098;
+    padding: 30px 10px 0px 30px;
+}
+
+.carts-container button{
+    background-color: #0080003a;
+    border: 2px solid #00800096;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.carts-container button:hover{
+    background-color: #008000;
+    color: white;
+}
+
+.carts{
+    position: sticky;
+    top: 0;
+}
 
 @media screen and (max-width: 900px) {
     .shop{
