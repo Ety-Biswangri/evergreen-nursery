@@ -7,16 +7,17 @@ const Shop = ({ products }) => {
     let [carts, setCarts] = useState([]);
 
     const handleAddToCart = (selectedProduct) => {
-        console.log(selectedProduct)
-
         for (const cart of carts) {
             if (cart.id === selectedProduct.id) {
                 alert('Please Add New One')
                 return;
             }
         }
-
         const newCarts = [...carts, selectedProduct];
+        if (newCarts.length > 4) {
+            alert('Only Four Items Can Be Added')
+            return;
+        }
         setCarts(newCarts);
     }
 
