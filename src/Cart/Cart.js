@@ -6,7 +6,7 @@ const Cart = ({ carts }) => {
         <div className='cart'>
             {
                 carts.map(cart => (
-                    <li key={cart.name}>{cart.name}</li>
+                    <li style={{ marginBottom: '10px' }} key={cart.name}>{cart.name}</li>
                 ))
             }
         </div>

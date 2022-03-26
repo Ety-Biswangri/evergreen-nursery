@@ -29,9 +29,8 @@
     color: white;
 }
 
-.carts{
-    position: sticky;
-    top: 0;
+.buttons{
+    margin-top: 20px;
 }
 
 @media screen and (max-width: 900px) {
