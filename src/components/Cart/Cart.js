@@ -4,7 +4,7 @@ import './Cart.css';
 const Cart = ({ carts, chooseAgain, chooseOne }) => {
     return (
         <div className='cart'>
-            <h2 style={{ fontWeight: "bolder", textAlign: "center", marginBottom: "40px", }}>Orders List</h2>
+            <h2 style={{ fontWeight: "bolder", textAlign: "center", marginBottom: "40px", }}>Selected Flowers</h2>
             {
                 carts.map(cart => (
                     <li style={{ marginBottom: '10px' }} key={cart.name}>{cart.name}</li>

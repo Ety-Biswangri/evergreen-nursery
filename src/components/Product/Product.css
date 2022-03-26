@@ -3,6 +3,8 @@
     background-color: lavender;
     text-align: center;
     position: relative;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 10px;
 }
 
 .product img{
@@ -11,6 +13,7 @@
     width: 90%;
     height: 250px;
     object-fit: cover;
+    background-repeat: no-repeat;
 }
 
 .product-info 
@@ -19,7 +22,7 @@
 }
 
 .product-info h3{
-    margin: 5px;
+    margin-top: 15px;
 }
 
 .product button{
@@ -34,6 +37,7 @@
     background-color: #008000c0;
     color: white;
     border: none;
+    border-radius: 20px;
 }
 
 .product button:hover{
