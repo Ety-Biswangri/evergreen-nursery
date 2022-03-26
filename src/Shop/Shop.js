@@ -12,16 +12,12 @@ const Shop = ({ products }) => {
     }
 
     const chooseOne = () => {
-        console.log(carts)
         if (carts.length === 0) {
-            alert('Please choose any four items');
+            alert('Please Add any four items in List');
             return;
         }
         const item = carts[Math.floor(Math.random() * carts.length)];
         const chosenItem = [item];
-        if (chosenItem === [undefined]) {
-            return;
-        }
         setCarts(chosenItem);
     }
 
