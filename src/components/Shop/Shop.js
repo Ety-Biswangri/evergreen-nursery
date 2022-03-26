@@ -4,9 +4,18 @@ import Product from '../Product/Product';
 import './Shop.css';
 
 const Shop = ({ products }) => {
-    const [carts, setCarts] = useState([]);
+    let [carts, setCarts] = useState([]);
 
     const handleAddToCart = (selectedProduct) => {
+        console.log(selectedProduct)
+
+        for (const cart of carts) {
+            if (cart.id === selectedProduct.id) {
+                alert('Please Add New One')
+                return;
+            }
+        }
+
         const newCarts = [...carts, selectedProduct];
         setCarts(newCarts);
     }
@@ -16,13 +25,13 @@ const Shop = ({ products }) => {
             return;
         }
         const item = carts[Math.floor(Math.random() * carts.length)];
-        const chosenItem = [item];
-        setCarts(chosenItem);
+        carts = [item];
+        setCarts(carts);
     }
 
     const chooseAgain = () => {
-        const emptyCart = [];
-        setCarts(emptyCart);
+        carts = [];
+        setCarts(carts);
     }
 
     return (

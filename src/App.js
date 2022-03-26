@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 import Header from './components/Header/Header';
+import ReactConcepts from './components/ReactConcepts/ReactConcepts';
 import Shop from './components/Shop/Shop';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <div>
       <Header></Header>
       <Shop products={products}></Shop>
+      <ReactConcepts></ReactConcepts>
     </div>
   );
 }
