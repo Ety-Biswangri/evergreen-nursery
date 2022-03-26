@@ -56,7 +56,19 @@
     {
         "id": 10,
         "name": "Christmas Cactus",
-        "price": 2230,
+        "price": 2630,
         "img": "https://u9b2w4s6.rocketcdn.me/wp-content/uploads/2021/11/christmas-cactus-plant-care-01.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Bromeliads",
+        "price": 2290,
+        "img": "https://cdn.britannica.com/14/138914-050-D5736E15/Inflorescences-Bromelia.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Kalanchoe",
+        "price": 2030,
+        "img": "https://www.atozflowers.com/wp-content/uploads/2017/11/kalanchoe-plant-flower-72938.jpeg"
     }
 ]

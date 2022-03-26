@@ -13,7 +13,6 @@ const Shop = ({ products }) => {
 
     const chooseOne = () => {
         if (carts.length === 0) {
-            alert('Please Add any four items in List');
             return;
         }
         const item = carts[Math.floor(Math.random() * carts.length)];
