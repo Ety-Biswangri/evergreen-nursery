@@ -17,7 +17,8 @@ const ReactConcepts = () => {
                 <div className='core-concepts-two'>
                     <h2 style={{ marginBottom: "13px" }}>How useState() Works?</h2>
                     <p style={{ textAlign: 'justify', fontSize: "17px" }}>
-                        The useState() is one of the react hooks. If we give a initial state to the useState(), it returns an array.The first element of this array is a state variable and the other element is a function which updates the state variable's value. React renders any component (of an application) based on the change of the state of this component.So, useState() is used to denote the change to react.
+                        The useState() is a react hook. If we give a initial state value to the useState(), it returns an array. The first element of this array is a state variable and the other element is a function which updates the state variable's value. React renders any component (of any application) based on the change of the state of this component. So, useState() is used to denote the change to react.
+                        The updating process of the state is asynchronous. So we get the updated value of state in asynchronous way. This is how useState() works.
                     </p>
                 </div>
             </div>
