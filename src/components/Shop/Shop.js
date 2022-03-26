@@ -13,9 +13,11 @@ const Shop = ({ products }) => {
                 return;
             }
         }
+
         const newCarts = [...carts, selectedProduct];
+
         if (newCarts.length > 4) {
-            alert('Only Four Items Can Be Added')
+            alert('Only Four Items Can Be Added');
             return;
         }
         setCarts(newCarts);
