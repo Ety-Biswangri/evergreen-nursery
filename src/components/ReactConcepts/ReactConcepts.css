@@ -4,13 +4,27 @@
 
 .core-concepts{
     margin-top: 80px;
-    padding: 30px 60px 60px 60px;
+    padding: 30px 60px 20px 60px;
 }
 
-.core-concepts .core-concepts-one{
-    margin-bottom: 30px;
+.core-concepts .core-concepts-one, .core-concepts-two{
+    margin-bottom: 35px;
 }
 
-.core-concepts-one li{
+.core-concepts-one p,li{
     margin: 8px;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.core-concepts-two p{
+    line-height: 1.7;
+}
+
+@media screen and (max-width: 750px) {
+    .core-concepts-one p,li{
+        margin: 10px;
+        line-height: 1.7;
+        font-size: 17px;
+    }
 }

@@ -5,9 +5,9 @@ const ReactConcepts = () => {
     return (
         <div className='core'>
             <div className='core-concepts'>
-                <h1 style={{ textAlign: "center", marginBottom: "30px" }}>React Core Concepts</h1>
+                <h1 style={{ textAlign: "center", marginBottom: "40px" }}>React Core Concepts</h1>
                 <div className='core-concepts-one'>
-                    <h2 style={{ marginBottom: "10px" }}>What are the differences between Props and State?</h2>
+                    <h2 style={{ marginBottom: "13px" }}>What are the differences between Props and State?</h2>
                     <p> Props and State are related to each other. The differences between Props and State are given below:
                         <li>Props are used to send data from parent component to child component. On the contrary, States are used to store the information about the components.</li>
                         <li>Props are read only and can not be modified. While, States can be changed asynchronously.</li>
@@ -15,13 +15,13 @@ const ReactConcepts = () => {
                     </p>
                 </div>
                 <div className='core-concepts-two'>
-                    <h2>How useState() Works?</h2>
-                    <p>
-                        The useState() is one of the react hooks. useState() returns an array.
+                    <h2 style={{ marginBottom: "13px" }}>How useState() Works?</h2>
+                    <p style={{ textAlign: 'justify', fontSize: "17px" }}>
+                        The useState() is one of the react hooks. If we give a initial state to the useState(), it returns an array.The first element of this array is a state variable and the other element is a function which updates the state variable's value. React renders any component (of an application) based on the change of the state of this component.So, useState() is used to denote the change to react.
                     </p>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 
