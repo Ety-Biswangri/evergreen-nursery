@@ -18,7 +18,6 @@ function App() {
     <div>
       <Header></Header>
       <Shop products={products}></Shop>
-      <ReactConcepts></ReactConcepts>
     </div>
   );
 }
